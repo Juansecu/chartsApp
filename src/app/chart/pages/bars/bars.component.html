@@ -1,0 +1,9 @@
+<h1>Bars Chart</h1>
+<hr />
+
+<div style="display: block">
+    <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
+        [legend]="barChartLegend" [chartType]="barChartType">
+    </canvas>
+</div>
+<button (click)="randomize()" class="btn btn-primary float-end">Update</button>
