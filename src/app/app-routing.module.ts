@@ -3,13 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'charts',
-    loadChildren: () => import('./charts/charts.module').then(m => m.ChartsModule)
+    path: 'chart',
+    loadChildren: () => import('./chart/chart.module').then(m => m.ChartModule)
   },
   {
     path: '**',
     pathMatch: 'full',
-    redirectTo: 'charts'
+    redirectTo: 'chart'
   }
 ];
 
