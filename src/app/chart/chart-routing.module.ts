@@ -19,11 +19,11 @@ const routes: Routes = [
         component: DoubleBarsComponent,
       },
       {
-        path: "pie",
+        path: "doughnut",
         component: DoughnutComponent,
       },
       {
-        path: "pie-http",
+        path: "doughnut-http",
         component: DoughnutHttpComponent,
       },
       {
