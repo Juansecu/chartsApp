@@ -1,1 +1,12 @@
-<p>pie-http works!</p>
+<h1>Most Used Social Networks</h1>
+<hr />
+
+<div *ngIf="!doughnutChartData.length; chartContainer" class="alert alert-info">
+    Loading data...
+</div>
+
+<div #ngContainer style="display: block;">
+    <canvas baseChart [colors]="colors" [data]="doughnutChartData" [labels]="doughnutChartLabels"
+        [chartType]="doughnutChartType">
+    </canvas>
+</div>
