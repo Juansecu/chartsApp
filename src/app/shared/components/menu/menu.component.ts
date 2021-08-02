@@ -12,19 +12,19 @@ export class MenuComponent {
   routes: Route[] = [
     {
       title: 'Bars',
-      path: 'charts/bars'
+      path: 'chart/bars'
     },
     {
       title: 'Double Bars',
-      path: 'charts/double-bars'
+      path: 'chart/double-bars'
     },
     {
       title: 'Pie',
-      path: 'charts/pie'
+      path: 'chart/pie'
     },
     {
       title: 'Pie HTTP',
-      path: 'charts/pie-http'
+      path: 'chart/pie-http'
     },
   ];
 }
