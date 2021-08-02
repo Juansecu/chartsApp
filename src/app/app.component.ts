@@ -3,8 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>{{ title }}</h1>
-    <router-outlet></router-outlet>
+    <div class="container row mt-5">
+      <div class="col-md-3 col-sm-12">
+        <app-menu></app-menu>
+      </div>
+      <div class="col">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
   `,
   styles: []
 })

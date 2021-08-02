@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
+import { Route } from '../../typings/Route';
 
 @Component({
   selector: 'app-menu',
@@ -6,11 +8,23 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class MenuComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class MenuComponent {
+  routes: Route[] = [
+    {
+      title: 'Bars',
+      path: 'charts/bars'
+    },
+    {
+      title: 'Double Bars',
+      path: 'charts/double-bars'
+    },
+    {
+      title: 'Pie',
+      path: 'charts/pie'
+    },
+    {
+      title: 'Pie HTTP',
+      path: 'charts/pie-http'
+    },
+  ];
 }
