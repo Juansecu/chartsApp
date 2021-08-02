@@ -9,14 +9,14 @@ import { BarChartComponent } from "./components/bar-chart/bar-chart.component";
 import { BarsComponent } from "./pages/bars/bars.component";
 import { DoubleBarsComponent } from "./pages/double-bars/double-bars.component";
 import { DoughnutComponent } from "./pages/doughnut/doughnut.component";
-import { PieHttpComponent } from "./pages/pie-http/pie-http.component";
+import { DoughnutHttpComponent } from "./pages/doughnut-http/doughnut-http.component";
 
 @NgModule({
   declarations: [
     BarsComponent,
     DoubleBarsComponent,
     DoughnutComponent,
-    PieHttpComponent,
+    DoughnutHttpComponent,
     BarChartComponent,
   ],
   imports: [ChartsModule, CommonModule, ChartsRoutingModule],

@@ -4,7 +4,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { BarsComponent } from "./pages/bars/bars.component";
 import { DoubleBarsComponent } from "./pages/double-bars/double-bars.component";
 import { DoughnutComponent } from "./pages/doughnut/doughnut.component";
-import { PieHttpComponent } from "./pages/pie-http/pie-http.component";
+import { DoughnutHttpComponent } from "./pages/doughnut-http/doughnut-http.component";
 
 const routes: Routes = [
   {
@@ -24,7 +24,7 @@ const routes: Routes = [
       },
       {
         path: "pie-http",
-        component: PieHttpComponent,
+        component: DoughnutHttpComponent,
       },
       {
         path: "**",
