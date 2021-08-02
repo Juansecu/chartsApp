@@ -4,7 +4,7 @@ import { ChartType } from "chart.js";
 import { Label, MultiDataSet } from "ng2-charts";
 
 @Component({
-  selector: "app-pie",
+  selector: "app-doughnut",
   templateUrl: "./doughnut.component.html",
   styles: [],
 })
